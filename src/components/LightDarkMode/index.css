@@ -1,0 +1,36 @@
+/* Write your CSS here */
+
+.container {
+  background-color: #fff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.dark-mode {
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: #000;
+  border-radius: 8px;
+  padding: 20px;
+
+  border: 1px solid #000;
+}
+
+.button {
+  height: 38px;
+  width: 100px;
+  border-radius: 5px;
+  font-weight: 700;
+}
